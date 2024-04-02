@@ -31,7 +31,7 @@ Veri madenciliği genellikle aşağıdaki adımları içeren bir süreçtir:
 Veri madenciliği, birçok endüstride kullanılan bir araçtır. Pazarlama, finans, sağlık, perakende, telekomünikasyon ve diğer birçok sektörde müşteri davranışlarını anlama, risk analizi yapma, hedefleme ve segmentasyon gibi birçok farklı alanda kullanılır.
 
 
-### Makine Öğrenimi Algoritmaları
+## `Makine Öğrenimi Algoritmaları`
 ![image](https://github.com/elifbeyzatok00/Data-Mining/assets/102792446/5ac8d548-7bb1-4265-9f73-c71dddcd268d)
 
 Makine öğrenimi algoritmaları, veriye dayalı örüntüleri tanımlamak, tahminler yapmak veya kararlar vermek için kullanılan matematiksel modellerdir. Bu algoritmalar, genellikle öğrenme sürecinde veriye adapte olarak performanslarını artırırlar. İşte yaygın olarak kullanılan bazı makine öğrenimi algoritmaları ve detayları:
@@ -70,7 +70,7 @@ Bu, makine öğrenimi alanında sıkça kullanılan temel algoritmaların bazıl
 
 
 
-### Derin Öğrenme Algoritmaları
+## `Derin Öğrenme Algoritmaları`
 
 ![image](https://github.com/elifbeyzatok00/Data-Mining/assets/102792446/19d08b58-61fa-4eee-a435-0ab94502544c)
 
@@ -106,7 +106,7 @@ Derin öğrenme, yapay sinir ağlarının çok katmanlı ve karmaşık yapılar�
 Bu algoritmalar, derin öğrenmenin temel yapı taşlarını oluşturur. Her biri farklı veri türlerini ve problemlerini ele almak için tasarlanmıştır. Gelişen teknoloji ve araştırmalarla, bu algoritmaların yeni varyasyonları ve iyileştirmeleri sürekli olarak geliştirilmektedir.
 
 
-### Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır?
+## `Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır?`
 
 Veri madenciliğinde kullanılan melez algoritmalar, genellikle birbirini tamamlayıcı özelliklere sahip olan farklı algoritmaların bir araya getirilmesiyle oluşturulur. Bu, genellikle daha iyi sonuçlar elde etmek, daha geniş bir veri yelpazesini kapsamak veya belirli zorlukları aşmak için yapılır. İşte bazı yaygın melez algoritmalar ve nasıl kullanıldıklarıyla ilgili örnekler:
 
@@ -181,7 +181,7 @@ print("Test doğruluğu:", accuracy)
 
 Bu kod örneğinde, öncelikle MNIST veri kümesi yüklenir ve CNN modeli tanımlanır ve eğitilir. Daha sonra, bu modelin çıktılarını kullanarak özellik vektörleri çıkarılır ve KNN algoritması kullanılarak bu özellik vektörleri sınıflandırılır. Son olarak, sınıflandırma sonuçları değerlendirilir ve test doğruluğu hesaplanır.
 
-### Veri madenciliği: Öznitelik seçim alg ile kodlanacak tasarım adımlarını py ile kodlamaya dönüştür. (Kod yok PSO entegrasyonu gerçekleştir)
+## `Veri madenciliği: Öznitelik seçim alg ile kodlanacak tasarım adımlarını py ile kodlamaya dönüştür. (Kod yok PSO entegrasyonu gerçekleştir)`
 
 Tabii, işte yorum satırları ile birlikte tüm kodu tek bir hücrede:
 
@@ -270,6 +270,6 @@ print("Selected Features:", np.where(selected_features == 1)[0])
 
 Bu kod parçacıklar arası optimizasyon kullanarak öznitelik seçimi gerçekleştirir ve seçilen özniteliklerin indekslerini yazdırır.
 
-### Veri madenciliği: Öznitelik seçim alg ile DDOS saldırı tespiti ML modeli geliştir, veri setini Kaggle’dan çek. (Kod yok PSO entegrasyonu gerçekleştir)
+## `Veri madenciliği: Öznitelik seçim alg ile DDOS saldırı tespiti ML modeli geliştir, veri setini Kaggle’dan çek. (Kod yok PSO entegrasyonu gerçekleştir)`
 
-🔗[DDOS Attack Detection ML Model]()
+🔗[DDOS Attack Detection ML Model](https://github.com/elifbeyzatok00/DDOS_Attack_Detection_ML_Model)
