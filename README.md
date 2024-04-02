@@ -1,6 +1,35 @@
 # Veri Madenciliği (Data Mining)
 
+Veri madenciliği, büyük miktarda veri içerisindeki desenleri, bilgiyi ve anlamlı ilişkileri keşfetmek için kullanılan disiplinlerarası bir alanıdır. Genellikle istatistiksel analiz, makine öğrenimi, yapay zeka ve veritabanı yönetimi gibi alanlardan faydalanır. Veri madenciliği, veri içerisindeki gizli bilgileri ortaya çıkarmak, tahminler yapmak ve karar destek sistemlerini güçlendirmek için kullanılır.
+
 🔗[Yapay Zekaya Giris Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Yapay_Zekaya_Giris.ipynb)
+
+Veri madenciliğinin ana hedefleri şunlardır:
+
+1. **Desen Keşfi:** Büyük veri kümelerindeki tekrarlanan desenleri ve ilişkileri tespit etmek.
+
+2. **Tahmin:** Gelecekteki olayları veya değerleri tahmin etmek için verilerden modeller oluşturmak.
+
+3. **Gruplama:** Benzer özelliklere sahip veri noktalarını gruplayarak segmentasyon yapmak.
+
+4. **Yapısal Analiz:** Veri kümelerindeki yapının ve ilişkilerin anlaşılmasını sağlamak.
+
+5. **Karar Destek:** Karar verme süreçlerini optimize etmek ve bilgiye dayalı kararlar almak için veri analizi ve modelleme kullanmak.
+
+Veri madenciliği genellikle aşağıdaki adımları içeren bir süreçtir:
+
+1. **Veri Toplama:** İlgili veri kaynaklarından veri toplanması.
+
+2. **Veri Hazırlığı:** Veri temizleme, önişleme ve uygun formata getirme adımlarıyla veri hazırlığının yapılması.
+
+3. **Modelleme:** Makine öğrenimi, istatistiksel analiz ve diğer teknikler kullanılarak veriye model uydurma.
+
+4. **Değerlendirme:** Oluşturulan modellerin performansının değerlendirilmesi ve gerektiğinde iyileştirilmesi.
+
+5. **Dağıtım:** Sonuçların yorumlanması ve gerektiğinde uygulamaya geçirilmesi.
+
+Veri madenciliği, birçok endüstride kullanılan bir araçtır. Pazarlama, finans, sağlık, perakende, telekomünikasyon ve diğer birçok sektörde müşteri davranışlarını anlama, risk analizi yapma, hedefleme ve segmentasyon gibi birçok farklı alanda kullanılır.
+
 
 ### Makine Öğrenimi Algoritmaları
 ![image](https://github.com/elifbeyzatok00/Data-Mining/assets/102792446/5ac8d548-7bb1-4265-9f73-c71dddcd268d)
@@ -77,3 +106,20 @@ Derin öğrenme, yapay sinir ağlarının çok katmanlı ve karmaşık yapılar�
 Bu algoritmalar, derin öğrenmenin temel yapı taşlarını oluşturur. Her biri farklı veri türlerini ve problemlerini ele almak için tasarlanmıştır. Gelişen teknoloji ve araştırmalarla, bu algoritmaların yeni varyasyonları ve iyileştirmeleri sürekli olarak geliştirilmektedir.
 
 
+### Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır?
+
+Veri madenciliğinde kullanılan melez algoritmalar, genellikle birbirini tamamlayıcı özelliklere sahip olan farklı algoritmaların bir araya getirilmesiyle oluşturulur. Bu, genellikle daha iyi sonuçlar elde etmek, daha geniş bir veri yelpazesini kapsamak veya belirli zorlukları aşmak için yapılır. İşte bazı yaygın melez algoritmalar ve nasıl kullanıldıklarıyla ilgili örnekler:
+
+1. **CNN+KNN (Convolutional Neural Network + K-Nearest Neighbors):**
+   - **Kullanım Amacı:** Görüntü sınıflandırma gibi görevlerde yaygın olarak kullanılır. CNN, derin öğrenme modeli olarak özellik çıkarımı yapar ve görsel veriyi temsil ederken, KNN ise bu özellik vektörlerini kullanarak sınıflandırma işlemi yapar.
+   - **Nasıl Kullanılır:** İlk adımda, bir CNN modeli eğitilir ve görüntülerden özellikler çıkarılır. Daha sonra, bu özellik vektörleri KNN algoritmasıyla birlikte kullanılarak sınıflandırma yapılır. Yani, CNN modeli görüntüleri özellik vektörlerine dönüştürür ve KNN, bu vektörler üzerinde sınıflandırma yapar.
+
+2. **Random Forest + Gradient Boosting:**
+   - **Kullanım Amacı:** Karar ağaçlarına dayalı yöntemlerin kombinasyonu, tahmin ve sınıflandırma problemlerinde genellikle daha yüksek doğruluk sağlamak için kullanılır.
+   - **Nasıl Kullanılır:** İlk olarak, Random Forest algoritması kullanılarak birçok karar ağacı eğitilir. Daha sonra, bu ağaçların birleşiminden bir tahmin yapılır. Bu tahminler, Gradient Boosting algoritması kullanılarak daha fazla rafine edilir. Gradient Boosting, önceki tahminlerin hatalarını düzelterek modeli güçlendirir.
+
+3. **K-Means + DBSCAN:**
+   - **Kullanım Amacı:** Kümeleme problemlerinde kullanılır. K-Means, kümeleme işlemi için merkezi yöntemlerden biridir, ancak veri yapısının gürültülü veya karmaşık olduğu durumlarda yetersiz kalabilir. Bu durumda, DBSCAN gibi yoğunluğa dayalı bir kümeleme algoritması kullanılabilir.
+   - **Nasıl Kullanılır:** İlk olarak, K-Means algoritması kullanılarak kümeleme yapılır. Daha sonra, DBSCAN gibi bir yoğunluk tabanlı algoritma kullanılarak kümeleme sonuçları daha fazla rafine edilebilir. Özellikle, K-Means'in oluşturduğu küme merkezlerini başlangıç noktası olarak kullanarak DBSCAN, daha kesin ve esnek kümeleme sonuçları üretebilir.
+
+Bu melez algoritmalar, belirli veri madenciliği problemlerine daha iyi çözümler bulmak için kullanılır. Bunlar, tek başına kullanılan algoritmaların zayıf noktalarını dengelemek ve farklı özelliklerin avantajlarını bir araya getirmek için tasarlanmıştır.
