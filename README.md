@@ -1,5 +1,7 @@
 # Veri Madenciliği (Data Mining)
 
+🔗[Yapay Zekaya Giris Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Yapay_Zekaya_Giris.ipynb)
+
 ### Makine Öğrenimi Algoritmaları
 ![image](https://github.com/elifbeyzatok00/Data-Mining/assets/102792446/5ac8d548-7bb1-4265-9f73-c71dddcd268d)
 
@@ -11,6 +13,8 @@ Makine öğrenimi algoritmaları, veriye dayalı örüntüleri tanımlamak, tahm
    - **Karar Ağaçları:** Karar ağaçları veri kümesini sınıflandırmak veya regresyon yapmak için ağaç benzeri bir yapı kullanır. Basit ve yorumlanabilir modeller sağlarlar.
    - **Destek Vektör Makineleri (SVM):** Bir veri kümesini sınıflandırmak veya regresyon yapmak için kullanılan bir algoritmadır. Belirli bir hiperdüzlemi oluşturarak sınıflar arasındaki en geniş boşluğu (margin) maksimize etmeye çalışır.
    - **K-En Yakın Komşu (KNN):** Bir veri noktasını etiketlemek için yakındaki veri noktalarının çoğunluğuna dayanır. Bu algoritma basit ve kullanımı kolaydır.
+
+   🔗[Denetimli Öğrenme Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Denetimli_Ogrenme.pptx)
 
 2. **Denetimsiz Öğrenme Algoritmaları:**
    - **K-Means Kümeleme:** Veri noktalarını belirli sayıda kümeye (clusters) bölmek için kullanılır. Her kümenin merkezi, o kümenin veri noktalarının ortalamasıdır.
@@ -33,6 +37,8 @@ Bu, makine öğrenimi alanında sıkça kullanılan temel algoritmaların bazıl
 
 ![image](https://github.com/elifbeyzatok00/Data-Mining/assets/102792446/4fdbdc4d-56a2-468d-be7d-d6fb5f9cbcc9)
 
+🔗[Makine Ogrenmesi Modelleri Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Makine_Ogrenmesi_Modelleri.ipynb)
+
 
 
 ### Derin Öğrenme Algoritmaları
@@ -45,6 +51,8 @@ Derin öğrenme, yapay sinir ağlarının çok katmanlı ve karmaşık yapılar�
    - Yapay sinir ağları, biyolojik sinir ağlarını temel alan bir modeldir. Çok katmanlı algılayıcılar, gizli katmanlar ve çıktı katmanlarından oluşur.
    - Her katman, giriş verisini işleyerek daha karmaşık özellikler öğrenir.
    - Geriye yayılım algoritması (Backpropagation), ağın hatalarını azaltmak için kullanılır.
+
+   🔗[Yapay Sinir Aglari Giris Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Yapay_Sinir_Aglari_Giris.ipynb)
 
 2. **Evrişimli Sinir Ağları (Convolutional Neural Networks - CNN):**
    - Görüntü ve video gibi yapısal veriler üzerinde başarıyla çalışan bir derin öğrenme modelidir.
