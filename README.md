@@ -123,3 +123,153 @@ Veri madenciliğinde kullanılan melez algoritmalar, genellikle birbirini tamaml
    - **Nasıl Kullanılır:** İlk olarak, K-Means algoritması kullanılarak kümeleme yapılır. Daha sonra, DBSCAN gibi bir yoğunluk tabanlı algoritma kullanılarak kümeleme sonuçları daha fazla rafine edilebilir. Özellikle, K-Means'in oluşturduğu küme merkezlerini başlangıç noktası olarak kullanarak DBSCAN, daha kesin ve esnek kümeleme sonuçları üretebilir.
 
 Bu melez algoritmalar, belirli veri madenciliği problemlerine daha iyi çözümler bulmak için kullanılır. Bunlar, tek başına kullanılan algoritmaların zayıf noktalarını dengelemek ve farklı özelliklerin avantajlarını bir araya getirmek için tasarlanmıştır.
+
+Örnek:
+
+İşte bir Python kod örneği, görüntü sınıflandırma için CNN (Convolutional Neural Network) ile KNN (K-Nearest Neighbors) algoritmalarının nasıl bir araya getirilebileceğini gösteriyor. Bu örnekte, MNIST el yazısı rakam veri kümesini kullanacağız. İlk olarak, CNN kullanarak el yazısı rakamları tanımak için bir model eğiteceğiz ve ardından bu modelin özellik vektörlerini çıkaracağız. Daha sonra, KNN algoritması kullanılarak bu özellik vektörlerini sınıflandıracağız.
+
+```python
+import numpy as np
+from keras.datasets import mnist
+from keras.models import Sequential
+from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
+from keras.utils import to_categorical
+from sklearn.neighbors import KNeighborsClassifier
+
+# MNIST veri kümesini yükleme
+(X_train, y_train), (X_test, y_test) = mnist.load_data()
+
+# Veri kümesini yeniden şekillendirme ve normalleştirme
+X_train = X_train.reshape(X_train.shape[0], 28, 28, 1).astype('float32') / 255
+X_test = X_test.reshape(X_test.shape[0], 28, 28, 1).astype('float32') / 255
+
+# Etiketleri ikili sınıf matrislerine dönüştürme
+y_train = to_categorical(y_train)
+y_test = to_categorical(y_test)
+
+# CNN modelini oluşturma
+model = Sequential()
+model.add(Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)))
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Flatten())
+model.add(Dense(128, activation='relu'))
+model.add(Dense(10, activation='softmax'))
+
+# Modeli derleme
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+# Modeli eğitme
+model.fit(X_train, y_train, epochs=5, batch_size=32, validation_data=(X_test, y_test))
+
+# CNN modelinin çıktılarını kullanarak özellik vektörlerini çıkarın
+extractor = Sequential(model.layers[:-1])
+
+X_train_features = extractor.predict(X_train)
+X_test_features = extractor.predict(X_test)
+
+# KNN modelini oluşturma ve eğitme
+knn_model = KNeighborsClassifier(n_neighbors=3)
+knn_model.fit(X_train_features, np.argmax(y_train, axis=1))
+
+# Test verilerini kullanarak tahmin yapma
+predictions = knn_model.predict(X_test_features)
+
+# Sonuçları değerlendirme
+accuracy = np.mean(predictions == np.argmax(y_test, axis=1))
+print("Test doğruluğu:", accuracy)
+```
+
+Bu kod örneğinde, öncelikle MNIST veri kümesi yüklenir ve CNN modeli tanımlanır ve eğitilir. Daha sonra, bu modelin çıktılarını kullanarak özellik vektörleri çıkarılır ve KNN algoritması kullanılarak bu özellik vektörleri sınıflandırılır. Son olarak, sınıflandırma sonuçları değerlendirilir ve test doğruluğu hesaplanır.
+
+### Veri madenciliği: Öznitelik seçim alg ile kodlanacak tasarım adımlarını py ile kodlamaya dönüştür. (Kod yok PSO entegrasyonu gerçekleştir)
+
+Tabii, işte yorum satırları ile birlikte tüm kodu tek bir hücrede:
+
+```python
+import numpy as np
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+
+# Veri setini oluştur
+X, y = make_classification(n_samples=1000, n_features=20, n_classes=2, random_state=42)
+
+# Veri setini eğitim ve test setlerine ayır
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Parçacık Sürü Optimizasyonu (PSO) sınıfını tanımla
+class Particle:
+    def __init__(self, num_features):
+        # Parçacık pozisyonunu rastgele seç
+        self.position = np.random.choice([0, 1], size=num_features)
+        # Parçacık hızını rastgele ata
+        self.velocity = np.random.uniform(-1, 1, size=num_features)
+        # Parçacıkın en iyi pozisyonunu ve skorunu tut
+        self.best_position = self.position.copy()
+        self.best_score = float('-inf')
+
+class PSO:
+    def __init__(self, num_particles, num_iterations):
+        self.num_particles = num_particles
+        self.num_iterations = num_iterations
+        self.particles = []
+
+    def optimize(self, X_train, X_test, y_train, y_test):
+        num_features = X_train.shape[1]
+        # Parçacıkları oluştur ve listeye ekle
+        for _ in range(self.num_particles):
+            particle = Particle(num_features)
+            self.particles.append(particle)
+        
+        global_best_position = np.zeros(num_features)
+        global_best_score = float('-inf')
+        
+        # PSO iterasyonlarını başlat
+        for _ in range(self.num_iterations):
+            # Her bir parçacık için optimize et
+            for particle in self.particles:
+                # Seçilmiş özellikleri al
+                selected_features = np.where(particle.position == 1)[0]
+                if len(selected_features) == 0:
+                    continue
+                
+                # Sınıflandırıcıyı oluştur ve eğit
+                clf = RandomForestClassifier(n_estimators=100, random_state=42)
+                clf.fit(X_train[:, selected_features], y_train)
+                # Test seti üzerinde tahmin yap
+                y_pred = clf.predict(X_test[:, selected_features])
+                score = accuracy_score(y_test, y_pred)
+                
+                # En iyi pozisyonu ve skoru güncelle
+                if score > particle.best_score:
+                    particle.best_score = score
+                    particle.best_position = particle.position.copy()
+                
+                if score > global_best_score:
+                    global_best_score = score
+                    global_best_position = particle.position.copy()
+            
+            # Hız ve pozisyon güncellemelerini hesapla
+            for particle in self.particles:
+                particle.velocity += 2 * np.random.random() * (particle.best_position - particle.position) + \
+                                     2 * np.random.random() * (global_best_position - particle.position)
+                particle.position += particle.velocity
+                particle.position = np.clip(particle.position, 0, 1)
+        
+        return global_best_position
+
+# PSO'yu kullanarak öznitelik seçimini gerçekleştir ve sonuçları yazdır
+num_particles = 20
+num_iterations = 50
+
+pso = PSO(num_particles, num_iterations)
+selected_features = pso.optimize(X_train, X_test, y_train, y_test)
+print("Selected Features:", np.where(selected_features == 1)[0])
+```
+
+Bu kod parçacıklar arası optimizasyon kullanarak öznitelik seçimi gerçekleştirir ve seçilen özniteliklerin indekslerini yazdırır.
+
+### Veri madenciliği: Öznitelik seçim alg ile DDOS saldırı tespiti ML modeli geliştir, veri setini Kaggle’dan çek. (Kod yok PSO entegrasyonu gerçekleştir)
+
+🔗[DDOS Attack Detection ML Model]()
