@@ -43,6 +43,22 @@ Makine öğrenimi algoritmaları, veriye dayalı örüntüleri tanımlamak, tahm
    - **Destek Vektör Makineleri (SVM):** Bir veri kümesini sınıflandırmak veya regresyon yapmak için kullanılan bir algoritmadır. Belirli bir hiperdüzlemi oluşturarak sınıflar arasındaki en geniş boşluğu (margin) maksimize etmeye çalışır.
    - **K-En Yakın Komşu (KNN):** Bir veri noktasını etiketlemek için yakındaki veri noktalarının çoğunluğuna dayanır. Bu algoritma basit ve kullanımı kolaydır.
 
+>Doğrusal regresyon ve lojistik regresyon, her ikisi de istatistiksel modellerdir, ancak farklı problemlere ve veri türlerine uygulanırlar.
+>
+>1. **Doğrusal Regresyon:**
+>   - Doğrusal regresyon, bağımsız değişkenlerle bağımlı bir değişken arasındaki ilişkiyi modellemek için kullanılır.
+>   - Bağımlı değişken sürekli bir değişken olmalıdır. Örneğin, hava sıcaklığı, gelir, yağış miktarı gibi sürekli verilerle çalışır.>
+>   - Doğrusal regresyon, doğrusal bir ilişki varsayımına dayanır; yani, bağımsız değişkenlerin bağımlı değişken üzerinde doğrusal bir etkisi olduğunu varsayar.
+>  - Doğrusal regresyon sonuçları genellikle gerçek değerler aralığında olur.
+>
+>2. **Lojistik Regresyon:**
+>   - Lojistik regresyon, bir bağımlı değişkenin kategorik bir değişken olduğu durumlar için kullanılır. Bu kategorik değişken genellikle ikili (0 veya 1) olur.
+>   - Sınıflandırma problemlerinde kullanılır. Örneğin, bir e-postanın spam olup olmadığını tahmin etmek, bir hastanın belirli bir hastalığa sahip olup olmadığını tahmin etmek gibi.
+>   - Lojistik regresyon sonuçları, bağımlı değişkenin olasılık değerleridir. Bu olasılık değerleri genellikle 0 ile 1 arasında olur ve bir sınır değeri (genellikle 0.5) belirlenerek sınıflandırma yapılır.
+>   - Lojistik regresyon, doğrusal olmayan bir bağlantı modellemek için kullanılır. Bağımlı değişkenin olasılık dağılımını modellemek için lojistik fonksiyon kullanılır.
+>
+>Özetle, doğrusal regresyon sürekli bir bağımlı değişkeni tahmin etmek için kullanılırken, lojistik regresyon kategorik bir bağımlı değişkeni tahmin etmek için kullanılır.
+
    🔗[Denetimli Öğrenme Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Denetimli_Ogrenme.pptx)
 
 2. **Denetimsiz Öğrenme Algoritmaları:**
