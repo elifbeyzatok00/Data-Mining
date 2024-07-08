@@ -1,18 +1,15 @@
 # Veri Madenciliği (Data Mining)
 
-📌[Laboratuvar Kodları](https://github.com/elifbeyzatok00/yazilim-tasarim-desenleri-turkce-kaynak/tree/main/Labaratuvar-Dersleri)
-
-📒[Ders Slaytları](https://github.com/elifbeyzatok00/yazilim-tasarim-desenleri-turkce-kaynak/tree/main/Ders%20Slaytlar%C4%B1)
-
-📔[Notlar ve Özetler](https://github.com/elifbeyzatok00/yazilim-tasarim-desenleri-turkce-kaynak/tree/main/Notlar%20ve%20%C3%96zetler)
-
 ## İçindekiler 📄
 
 1. [Veri Madenciliği (Data Mining) Nedir?](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Fi-data-mining-nedir)
 2. [Makine Öğrenimi Algoritmaları](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#makine-%C3%B6%C4%9Frenimi-algoritmalar%C4%B1)
 3. [Derin Öğrenme Algoritmaları](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#derin-%C3%B6%C4%9Frenme-algoritmalar%C4%B1)
 4. [Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır?](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Finde-kullan%C4%B1lan-melez-algoritmalar-nelerdir-birka%C3%A7-algoritma-birlikte-nas%C4%B1l-kullan%C4%B1l%C4%B1r-ne-ama%C3%A7la-kullan%C4%B1l%C4%B1r)
-5. 
+5. [Kümeleme (Clustering)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#k%C3%BCmeleme-clustering-nedir)
+6. [Karar Ağaçları (Decision Trees)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#karar-a%C4%9Fa%C3%A7lar%C4%B1-decision-trees-nedir)
+7. [Birliktelik Kuralları (Association Rules)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#birliktelik-kurallar%C4%B1-association-rules-nedir)
+8. [Yalın Bayes (Naive Bayes)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#yal%C4%B1n-bayes-naive-bayes-s%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1-nedir)
 
 ## Veri Madenciliği (Data Mining) Nedir?   
 Veri madenciliği, büyük miktarda veri içerisindeki desenleri, bilgiyi ve anlamlı ilişkileri keşfetmek için kullanılan disiplinlerarası bir alanıdır. Genellikle istatistiksel analiz, makine öğrenimi, yapay zeka ve veritabanı yönetimi gibi alanlardan faydalanır. Veri madenciliği, veri içerisindeki gizli bilgileri ortaya çıkarmak, tahminler yapmak ve karar destek sistemlerini güçlendirmek için kullanılır.
@@ -212,4 +209,26 @@ print("Test doğruluğu:", accuracy)
 
 Bu kod örneğinde, öncelikle MNIST veri kümesi yüklenir ve CNN modeli tanımlanır ve eğitilir. Daha sonra, bu modelin çıktılarını kullanarak özellik vektörleri çıkarılır ve KNN algoritması kullanılarak bu özellik vektörleri sınıflandırılır. Son olarak, sınıflandırma sonuçları değerlendirilir ve test doğruluğu hesaplanır.
 
+## Kümeleme (Clustering) Nedir?
+Kümeleme, verileri doğal gruplara veya kümelere ayırma işlemidir. Benzer özelliklere sahip veri noktaları aynı kümede yer alırken, farklı özelliklere sahip olanlar farklı kümelere atanır. Kümeleme, verilerin yapısını keşfetmek ve veri setindeki doğal desenleri tanımlamak için kullanılır. Örnek bir yöntem K-ortalamalar (K-means) algoritmasıdır.
 
+Kümeleme ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
+📂 [Kümeleme](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/2-k%C3%BCmeleme.pdf)
+
+## Karar Ağaçları (Decision Trees) Nedir?
+Karar ağaçları, sınıflandırma ve regresyon analizi için kullanılan bir modeldir. Ağaç yapısında karar düğümleri ve yaprak düğümleri bulunur. Her karar düğümü, bir özellik üzerinde bir koşul test eder ve sonuçlara göre dallanır. Yaprak düğümleri ise sınıf etiketlerini veya regresyon değerlerini temsil eder. Karar ağaçları, verilerin anlaşılması ve görselleştirilmesi açısından oldukça sezgiseldir.
+
+Karar Ağaçları ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
+📂 [Karar Ağaçları](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/3-Karar%20A%C4%9Fa%C3%A7lar%C4%B1.pdf)
+
+## Birliktelik Kuralları (Association Rules) Nedir?
+Birliktelik kuralları, veri setindeki öğeler arasındaki ilginç ilişkileri veya kalıpları keşfetmek için kullanılır. Özellikle pazar sepeti analizi gibi uygulamalarda yaygındır. Bu yöntem, belirli ürünlerin birlikte satın alınma olasılığını belirlemek için kullanılır. Örneğin, "Eğer müşteri A ürününü alırsa, B ürününü de alma olasılığı nedir?" gibi sorulara cevap verir. Apriori algoritması sıkça kullanılan bir tekniktir.
+
+Birliktelik Kuralları ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
+📂 [Birliktelik Kuralları](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/4-%20Birliktelik%20Kurallar%C4%B1.pdf)
+
+## Yalın Bayes (Naive Bayes) Sınıflandırıcı Nedir?
+Yalın Bayes, Bayes teoremini temel alan ve özelliklerin birbirinden bağımsız olduğunu varsayan bir sınıflandırma yöntemidir. Basit ve hızlı olması, aynı zamanda büyük veri setlerinde etkili sonuçlar verebilmesi nedeniyle popülerdir. Bu yöntem, özellikle metin sınıflandırma (örneğin, spam e-posta filtreleme) gibi uygulamalarda yaygın olarak kullanılır.
+
+Yalın Bayes ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
+📂 [Yalın Bayes](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/5-Yal%C4%B1n%20Bayes%20S%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1.pdf)
