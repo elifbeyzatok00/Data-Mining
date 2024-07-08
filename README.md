@@ -8,10 +8,10 @@
 
 ## İçindekiler 📄
 
-1. [Veri Madenciliği (Data Mining) Nedir?](#https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Fi-data-mining-nedir)
-2. [Makine Öğrenimi Algoritmaları](#`Makine-Öğrenimi-Algoritmaları`)
-3. [Derin Öğrenme Algoritmaları](#Derin-Öğrenme-Algoritmaları)
-4. [Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır?](#https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Finde-kullan%C4%B1lan-melez-algoritmalar-nelerdir-birka%C3%A7-algoritma-birlikte-nas%C4%B1l-kullan%C4%B1l%C4%B1r-ne-ama%C3%A7la-kullan%C4%B1l%C4%B1r)
+1. [Veri Madenciliği (Data Mining) Nedir?](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Fi-data-mining-nedir)
+2. [Makine Öğrenimi Algoritmaları](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#makine-%C3%B6%C4%9Frenimi-algoritmalar%C4%B1)
+3. [Derin Öğrenme Algoritmaları](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#derin-%C3%B6%C4%9Frenme-algoritmalar%C4%B1)
+4. [Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır?](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Finde-kullan%C4%B1lan-melez-algoritmalar-nelerdir-birka%C3%A7-algoritma-birlikte-nas%C4%B1l-kullan%C4%B1l%C4%B1r-ne-ama%C3%A7la-kullan%C4%B1l%C4%B1r)
 5. 
 
 ## Veri Madenciliği (Data Mining) Nedir?   
