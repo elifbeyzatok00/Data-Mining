@@ -10,6 +10,7 @@
 6. [Karar Ağaçları (Decision Trees)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#karar-a%C4%9Fa%C3%A7lar%C4%B1-decision-trees-nedir)
 7. [Birliktelik Kuralları (Association Rules)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#birliktelik-kurallar%C4%B1-association-rules-nedir)
 8. [Yalın Bayes (Naive Bayes)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#yal%C4%B1n-bayes-naive-bayes-s%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1-nedir)
+9. [Doğal Dil İşleme (Natural Language Processing - NLP)]()
 
 ## Veri Madenciliği (Data Mining) Nedir?   
 Veri madenciliği, büyük miktarda veri içerisindeki desenleri, bilgiyi ve anlamlı ilişkileri keşfetmek için kullanılan disiplinlerarası bir alanıdır. Genellikle istatistiksel analiz, makine öğrenimi, yapay zeka ve veritabanı yönetimi gibi alanlardan faydalanır. Veri madenciliği, veri içerisindeki gizli bilgileri ortaya çıkarmak, tahminler yapmak ve karar destek sistemlerini güçlendirmek için kullanılır.
@@ -232,3 +233,10 @@ Yalın Bayes, Bayes teoremini temel alan ve özelliklerin birbirinden bağımsı
 
 Yalın Bayes ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
 📂 [Yalın Bayes](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/5-Yal%C4%B1n%20Bayes%20S%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1.pdf)
+
+
+## Doğal Dil İşleme (Natural Language Processing - NLP)
+Doğal Dil İşleme (Natural Language Processing - NLP), bilgisayarların insan dilini anlaması, yorumlaması ve üretmesi için geliştirilen yöntem ve teknikleri kapsayan bir alandır. NLP, dilbilim, bilgisayar bilimi ve yapay zeka alanlarının kesişiminde yer alır ve insanların yazılı veya sözlü dilini analiz ederek çeşitli uygulamalarda kullanmayı amaçlar.
+
+Doğal Dil İşleme ile ilgili detaylı bilgi ve daha fazla örnek için aşağıdaki linke tıklayınız.
+📂 []()
