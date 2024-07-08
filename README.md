@@ -10,7 +10,7 @@
 6. [Karar Ağaçları (Decision Trees)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#karar-a%C4%9Fa%C3%A7lar%C4%B1-decision-trees-nedir)
 7. [Birliktelik Kuralları (Association Rules)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#birliktelik-kurallar%C4%B1-association-rules-nedir)
 8. [Yalın Bayes (Naive Bayes)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#yal%C4%B1n-bayes-naive-bayes-s%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1-nedir)
-9. [Doğal Dil İşleme (Natural Language Processing - NLP)]()
+9. [Doğal Dil İşleme (Natural Language Processing - NLP)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#do%C4%9Fal-dil-i%CC%87%C5%9Fleme-natural-language-processing---nlp)
 
 ## Veri Madenciliği (Data Mining) Nedir?   
 Veri madenciliği, büyük miktarda veri içerisindeki desenleri, bilgiyi ve anlamlı ilişkileri keşfetmek için kullanılan disiplinlerarası bir alanıdır. Genellikle istatistiksel analiz, makine öğrenimi, yapay zeka ve veritabanı yönetimi gibi alanlardan faydalanır. Veri madenciliği, veri içerisindeki gizli bilgileri ortaya çıkarmak, tahminler yapmak ve karar destek sistemlerini güçlendirmek için kullanılır.
