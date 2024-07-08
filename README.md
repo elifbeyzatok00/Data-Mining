@@ -1,5 +1,20 @@
 # Veri Madenciliği (Data Mining)
 
+📌[Laboratuvar Kodları](https://github.com/elifbeyzatok00/yazilim-tasarim-desenleri-turkce-kaynak/tree/main/Labaratuvar-Dersleri)
+
+📒[Ders Slaytları](https://github.com/elifbeyzatok00/yazilim-tasarim-desenleri-turkce-kaynak/tree/main/Ders%20Slaytlar%C4%B1)
+
+📔[Notlar ve Özetler](https://github.com/elifbeyzatok00/yazilim-tasarim-desenleri-turkce-kaynak/tree/main/Notlar%20ve%20%C3%96zetler)
+
+## İçindekiler 📄
+
+1. [Veri Madenciliği (Data Mining) Nedir?](#https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Fi-data-mining-nedir)
+2. [Makine Öğrenimi Algoritmaları](#`Makine-Öğrenimi-Algoritmaları`)
+3. [Derin Öğrenme Algoritmaları](#Derin-Öğrenme-Algoritmaları)
+4. [Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır?](#https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Finde-kullan%C4%B1lan-melez-algoritmalar-nelerdir-birka%C3%A7-algoritma-birlikte-nas%C4%B1l-kullan%C4%B1l%C4%B1r-ne-ama%C3%A7la-kullan%C4%B1l%C4%B1r)
+5. 
+
+## Veri Madenciliği (Data Mining) Nedir?   
 Veri madenciliği, büyük miktarda veri içerisindeki desenleri, bilgiyi ve anlamlı ilişkileri keşfetmek için kullanılan disiplinlerarası bir alanıdır. Genellikle istatistiksel analiz, makine öğrenimi, yapay zeka ve veritabanı yönetimi gibi alanlardan faydalanır. Veri madenciliği, veri içerisindeki gizli bilgileri ortaya çıkarmak, tahminler yapmak ve karar destek sistemlerini güçlendirmek için kullanılır.
 
 🔗[Yapay Zekaya Giris Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Yapay_Zekaya_Giris.ipynb)
