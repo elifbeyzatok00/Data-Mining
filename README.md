@@ -1,23 +1,23 @@
 # Veri Madenciliği (Data Mining)
 
-## İçindekiler 📄
+## İçindekiler (Table of Contents) 📄
 
-1. [Veri Madenciliği (Data Mining) Nedir?](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Fi-data-mining-nedir)
-2. [Makine Öğrenimi Algoritmaları](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#makine-%C3%B6%C4%9Frenimi-algoritmalar%C4%B1)
-3. [Derin Öğrenme Algoritmaları](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#derin-%C3%B6%C4%9Frenme-algoritmalar%C4%B1)
-4. [Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır?](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Finde-kullan%C4%B1lan-melez-algoritmalar-nelerdir-birka%C3%A7-algoritma-birlikte-nas%C4%B1l-kullan%C4%B1l%C4%B1r-ne-ama%C3%A7la-kullan%C4%B1l%C4%B1r)
+1. [Veri Madenciliği Nedir? (What is Data Mining?)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Fi-data-mining-nedir)
+2. [Makine Öğrenimi Algoritmaları (Machine Learning Algorithms)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#makine-%C3%B6%C4%9Frenimi-algoritmalar%C4%B1)
+3. [Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır? (What are hybrid algorithms used in data mining? How are multiple algorithms used together? What are they used for?) (Deep Learning Algorithms)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#derin-%C3%B6%C4%9Frenme-algoritmalar%C4%B1)
+4. [Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır? (What are hybrid algorithms used in data mining? How are multiple algorithms used together? What are they used for?)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#veri-madencili%C4%9Finde-kullan%C4%B1lan-melez-algoritmalar-nelerdir-birka%C3%A7-algoritma-birlikte-nas%C4%B1l-kullan%C4%B1l%C4%B1r-ne-ama%C3%A7la-kullan%C4%B1l%C4%B1r)
 5. [Kümeleme (Clustering)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#k%C3%BCmeleme-clustering-nedir)
 6. [Karar Ağaçları (Decision Trees)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#karar-a%C4%9Fa%C3%A7lar%C4%B1-decision-trees-nedir)
 7. [Birliktelik Kuralları (Association Rules)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#birliktelik-kurallar%C4%B1-association-rules-nedir)
 8. [Yalın Bayes (Naive Bayes)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#yal%C4%B1n-bayes-naive-bayes-s%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1-nedir)
 9. [Doğal Dil İşleme (Natural Language Processing - NLP)](https://github.com/elifbeyzatok00/Data-Mining/edit/main/README.md#do%C4%9Fal-dil-i%CC%87%C5%9Fleme-natural-language-processing---nlp)
 
-## Veri Madenciliği (Data Mining) Nedir?   
+## Veri Madenciliği Nedir? (What is Data Mining?)   
 Veri madenciliği, büyük miktarda veri içerisindeki desenleri, bilgiyi ve anlamlı ilişkileri keşfetmek için kullanılan disiplinlerarası bir alanıdır. Genellikle istatistiksel analiz, makine öğrenimi, yapay zeka ve veritabanı yönetimi gibi alanlardan faydalanır. Veri madenciliği, veri içerisindeki gizli bilgileri ortaya çıkarmak, tahminler yapmak ve karar destek sistemlerini güçlendirmek için kullanılır.
 
 🔗[Yapay Zekaya Giris Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Yapay_Zekaya_Giris.ipynb)
 
-Veri madenciliğinin ana hedefleri şunlardır:
+Veri madenciliğinin ana hedefleri (Main goals of data mining):
 
 1. **Desen Keşfi:** Büyük veri kümelerindeki tekrarlanan desenleri ve ilişkileri tespit etmek.
 
@@ -29,7 +29,7 @@ Veri madenciliğinin ana hedefleri şunlardır:
 
 5. **Karar Destek:** Karar verme süreçlerini optimize etmek ve bilgiye dayalı kararlar almak için veri analizi ve modelleme kullanmak.
 
-Veri madenciliği genellikle aşağıdaki adımları içeren bir süreçtir:
+Veri madenciliği adımları (Data Mining Steps):
 
 1. **Veri Toplama:** İlgili veri kaynaklarından veri toplanması.
 
@@ -44,27 +44,27 @@ Veri madenciliği genellikle aşağıdaki adımları içeren bir süreçtir:
 Veri madenciliği, birçok endüstride kullanılan bir araçtır. Pazarlama, finans, sağlık, perakende, telekomünikasyon ve diğer birçok sektörde müşteri davranışlarını anlama, risk analizi yapma, hedefleme ve segmentasyon gibi birçok farklı alanda kullanılır.
 
 
-## `Makine Öğrenimi Algoritmaları`
+## `Makine Öğrenimi Algoritmaları (Machine Learning Algorithms)`
 ![image](https://github.com/elifbeyzatok00/Data-Mining/assets/102792446/5ac8d548-7bb1-4265-9f73-c71dddcd268d)
 
-Makine öğrenimi algoritmaları, veriye dayalı örüntüleri tanımlamak, tahminler yapmak veya kararlar vermek için kullanılan matematiksel modellerdir. Bu algoritmalar, genellikle öğrenme sürecinde veriye adapte olarak performanslarını artırırlar. İşte yaygın olarak kullanılan bazı makine öğrenimi algoritmaları ve detayları:
+Makine Öğrenimi Algoritmaları (Machine Learning Algorithms), veriye dayalı örüntüleri tanımlamak, tahminler yapmak veya kararlar vermek için kullanılan matematiksel modellerdir. Bu algoritmalar, genellikle öğrenme sürecinde veriye adapte olarak performanslarını artırırlar. İşte yaygın olarak kullanılan bazı Makine Öğrenimi Algoritmaları (Machine Learning Algorithms) ve detayları:
 
-1. **Denetimli Öğrenme Algoritmaları:**
-   - **Doğrusal Regresyon:** Bağımlı ve bağımsız değişkenler arasındaki ilişkiyi modellemek için kullanılır. Örneğin, gelir ve harcama arasındaki ilişkiyi inceleyebilirsiniz.
-   - **Lojistik Regresyon:** Sınıflandırma problemleri için kullanılır. Örneğin, bir e-postanın spam olup olmadığını belirlemek için kullanılabilir.
-   - **Karar Ağaçları:** Karar ağaçları veri kümesini sınıflandırmak veya regresyon yapmak için ağaç benzeri bir yapı kullanır. Basit ve yorumlanabilir modeller sağlarlar.
-   - **Destek Vektör Makineleri (SVM):** Bir veri kümesini sınıflandırmak veya regresyon yapmak için kullanılan bir algoritmadır. Belirli bir hiperdüzlemi oluşturarak sınıflar arasındaki en geniş boşluğu (margin) maksimize etmeye çalışır.
-   - **K-En Yakın Komşu (KNN):** Bir veri noktasını etiketlemek için yakındaki veri noktalarının çoğunluğuna dayanır. Bu algoritma basit ve kullanımı kolaydır.
+1. **Denetimli Öğrenme Algoritmaları (Supervised Learning Algorithms):**
+   - **Doğrusal Regresyon (Linear Regression):** Bağımlı ve bağımsız değişkenler arasındaki ilişkiyi modellemek için kullanılır. Örneğin, gelir ve harcama arasındaki ilişkiyi inceleyebilirsiniz.
+   - **Lojistik Regresyon (Logistic Regression):** Sınıflandırma problemleri için kullanılır. Örneğin, bir e-postanın spam olup olmadığını belirlemek için kullanılabilir.
+   - **Karar Ağaçları (Decision Trees):** Karar ağaçları veri kümesini sınıflandırmak veya regresyon yapmak için ağaç benzeri bir yapı kullanır. Basit ve yorumlanabilir modeller sağlarlar.
+   - **Destek Vektör Makineleri (Support Vector Machines - SVM):** Bir veri kümesini sınıflandırmak veya regresyon yapmak için kullanılan bir algoritmadır. Belirli bir hiperdüzlemi oluşturarak sınıflar arasındaki en geniş boşluğu (margin) maksimize etmeye çalışır.
+   - **K-En Yakın Komşu (K-Nearest Neighbor - KNN):** Bir veri noktasını etiketlemek için yakındaki veri noktalarının çoğunluğuna dayanır. Bu algoritma basit ve kullanımı kolaydır.
 
 >Doğrusal regresyon ve lojistik regresyon, her ikisi de istatistiksel modellerdir, ancak farklı problemlere ve veri türlerine uygulanırlar.
 >
->1. **Doğrusal Regresyon:**
+>1. **Doğrusal Regresyon (Linear Regression):**
 >   - Doğrusal regresyon, bağımsız değişkenlerle bağımlı bir değişken arasındaki ilişkiyi modellemek için kullanılır.
 >   - Bağımlı değişken sürekli bir değişken olmalıdır. Örneğin, hava sıcaklığı, gelir, yağış miktarı gibi sürekli verilerle çalışır.>
 >   - Doğrusal regresyon, doğrusal bir ilişki varsayımına dayanır; yani, bağımsız değişkenlerin bağımlı değişken üzerinde doğrusal bir etkisi olduğunu varsayar.
 >  - Doğrusal regresyon sonuçları genellikle gerçek değerler aralığında olur.
 >
->2. **Lojistik Regresyon:**
+>2. **Lojistik Regresyon (Logistic Regression):**
 >   - Lojistik regresyon, bir bağımlı değişkenin kategorik bir değişken olduğu durumlar için kullanılır. Bu kategorik değişken genellikle ikili (0 veya 1) olur.
 >   - Sınıflandırma problemlerinde kullanılır. Örneğin, bir e-postanın spam olup olmadığını tahmin etmek, bir hastanın belirli bir hastalığa sahip olup olmadığını tahmin etmek gibi.
 >   - Lojistik regresyon sonuçları, bağımlı değişkenin olasılık değerleridir. Bu olasılık değerleri genellikle 0 ile 1 arasında olur ve bir sınır değeri (genellikle 0.5) belirlenerek sınıflandırma yapılır.
@@ -74,13 +74,13 @@ Makine öğrenimi algoritmaları, veriye dayalı örüntüleri tanımlamak, tahm
 
    🔗[Denetimli Öğrenme Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Denetimli_Ogrenme.pptx)
 
-2. **Denetimsiz Öğrenme Algoritmaları:**
-   - **K-Means Kümeleme:** Veri noktalarını belirli sayıda kümeye (clusters) bölmek için kullanılır. Her kümenin merkezi, o kümenin veri noktalarının ortalamasıdır.
-   - **Hiyerarşik Kümeleme:** Bir veri kümesini hiyerarşik olarak kümeler halinde böler. Bu kümeler, bir ağaç yapısı oluşturur ve farklı düzeylerdeki kümeleme seviyelerini gösterir.
-   - **Gauss Karışım Modelleme (GMM):** Her biri bir normal dağılıma sahip olan birden fazla bileşenin bir karışımı olarak veriyi modellemek için kullanılır. Genellikle veriye gizli bir yapı uygular.
-   - **Boyut Azaltma Algoritmaları:** Boyut azaltma, veri setinin boyutunu azaltarak veriyi daha anlaşılabilir ve işlenebilir hale getirir. Örneğin, PCA (Principal Component Analysis) ve t-SNE (t-distributed Stochastic Neighbor Embedding) gibi algoritmalar kullanılabilir.
+2. **Denetimsiz Öğrenme Algoritmaları (Unsupervised Learning Algorithms):**
+   - **K-Means Kümeleme (K-Means Clustering):** Veri noktalarını belirli sayıda kümeye (clusters) bölmek için kullanılır. Her kümenin merkezi, o kümenin veri noktalarının ortalamasıdır.
+   - **Hiyerarşik Kümeleme (Hierarchical Clustering):** Bir veri kümesini hiyerarşik olarak kümeler halinde böler. Bu kümeler, bir ağaç yapısı oluşturur ve farklı düzeylerdeki kümeleme seviyelerini gösterir.
+   - **Gauss Karışım Modelleme (Gaussian Mixture Modeling - GMM):** Her biri bir normal dağılıma sahip olan birden fazla bileşenin bir karışımı olarak veriyi modellemek için kullanılır. Genellikle veriye gizli bir yapı uygular.
+   - **Boyut Azaltma Algoritmaları (Dimension Reduction Algorithms):** Boyut azaltma, veri setinin boyutunu azaltarak veriyi daha anlaşılabilir ve işlenebilir hale getirir. Örneğin, PCA (Principal Component Analysis) ve t-SNE (t-distributed Stochastic Neighbor Embedding) gibi algoritmalar kullanılabilir.
 
-3. **Pekiştirmeli Öğrenme:**
+3. **Pekiştirmeli Öğrenme (Reinforcement Learning):**
    - **Q-Learning:** Pekiştirmeli öğrenme için temel bir algoritmadır. Bir ajanın çevresiyle etkileşimde bulunarak bir görevi en iyi şekilde yerine getirmesini öğretir. Belli bir durumda alınabilecek aksiyonların değerini öğrenir.
    - **Policy Gradient:** Bu algoritma, doğrudan bir politika fonksiyonunu optimize ederek ajanın davranışını iyileştirmeye çalışır. Genellikle derin öğrenmeyle birlikte kullanılır.
 
@@ -99,11 +99,11 @@ Bu, makine öğrenimi alanında sıkça kullanılan temel algoritmaların bazıl
 
 
 
-## `Derin Öğrenme Algoritmaları`
+## `Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır? (What are hybrid algorithms used in data mining? How are multiple algorithms used together? What are they used for?) (Deep Learning Algorithms)`
 
 ![image](https://github.com/elifbeyzatok00/Data-Mining/assets/102792446/19d08b58-61fa-4eee-a435-0ab94502544c)
 
-Derin öğrenme, yapay sinir ağlarının çok katmanlı ve karmaşık yapılarını kullanarak öğrenme sürecini gerçekleştiren bir makine öğrenimi alt dalıdır. İşte derin öğrenme algoritmalarının başlıca tipleri ve detayları:
+Derin öğrenme, yapay sinir ağlarının çok katmanlı ve karmaşık yapılarını kullanarak öğrenme sürecini gerçekleştiren bir makine öğrenimi alt dalıdır. İşte Veri madenciliğinde kullanılan melez algoritmalar nelerdir? Birkaç algoritma birlikte nasıl kullanılır? Ne amaçla kullanılır? (What are hybrid algorithms used in data mining? How are multiple algorithms used together? What are they used for?) (Deep Learning Algorithms)nın başlıca tipleri ve detayları:
 
 1. **Yapay Sinir Ağları (Artificial Neural Networks - ANN):**
    - Yapay sinir ağları, biyolojik sinir ağlarını temel alan bir modeldir. Çok katmanlı algılayıcılar, gizli katmanlar ve çıktı katmanlarından oluşur.
@@ -210,25 +210,25 @@ print("Test doğruluğu:", accuracy)
 
 Bu kod örneğinde, öncelikle MNIST veri kümesi yüklenir ve CNN modeli tanımlanır ve eğitilir. Daha sonra, bu modelin çıktılarını kullanarak özellik vektörleri çıkarılır ve KNN algoritması kullanılarak bu özellik vektörleri sınıflandırılır. Son olarak, sınıflandırma sonuçları değerlendirilir ve test doğruluğu hesaplanır.
 
-## Kümeleme (Clustering) Nedir?
+## Kümeleme Nedir? (What is Clustering?)
 Kümeleme, verileri doğal gruplara veya kümelere ayırma işlemidir. Benzer özelliklere sahip veri noktaları aynı kümede yer alırken, farklı özelliklere sahip olanlar farklı kümelere atanır. Kümeleme, verilerin yapısını keşfetmek ve veri setindeki doğal desenleri tanımlamak için kullanılır. Örnek bir yöntem K-ortalamalar (K-means) algoritmasıdır.
 
 Kümeleme ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
 📂 [Kümeleme](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/2-k%C3%BCmeleme.pdf)
 
-## Karar Ağaçları (Decision Trees) Nedir?
+## Karar Ağaçları Nedir? (What are Decision Trees?)
 Karar ağaçları, sınıflandırma ve regresyon analizi için kullanılan bir modeldir. Ağaç yapısında karar düğümleri ve yaprak düğümleri bulunur. Her karar düğümü, bir özellik üzerinde bir koşul test eder ve sonuçlara göre dallanır. Yaprak düğümleri ise sınıf etiketlerini veya regresyon değerlerini temsil eder. Karar ağaçları, verilerin anlaşılması ve görselleştirilmesi açısından oldukça sezgiseldir.
 
 Karar Ağaçları ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
 📂 [Karar Ağaçları](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/3-Karar%20A%C4%9Fa%C3%A7lar%C4%B1.pdf)
 
-## Birliktelik Kuralları (Association Rules) Nedir?
+## Birliktelik Kuralları Nedir? (What are Association Rules?)
 Birliktelik kuralları, veri setindeki öğeler arasındaki ilginç ilişkileri veya kalıpları keşfetmek için kullanılır. Özellikle pazar sepeti analizi gibi uygulamalarda yaygındır. Bu yöntem, belirli ürünlerin birlikte satın alınma olasılığını belirlemek için kullanılır. Örneğin, "Eğer müşteri A ürününü alırsa, B ürününü de alma olasılığı nedir?" gibi sorulara cevap verir. Apriori algoritması sıkça kullanılan bir tekniktir.
 
 Birliktelik Kuralları ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
 📂 [Birliktelik Kuralları](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/4-%20Birliktelik%20Kurallar%C4%B1.pdf)
 
-## Yalın Bayes (Naive Bayes) Sınıflandırıcı Nedir?
+## Yalın Bayes Sınıflandırıcı Nedir? (What is the Naive Bayes Classifier?)
 Yalın Bayes, Bayes teoremini temel alan ve özelliklerin birbirinden bağımsız olduğunu varsayan bir sınıflandırma yöntemidir. Basit ve hızlı olması, aynı zamanda büyük veri setlerinde etkili sonuçlar verebilmesi nedeniyle popülerdir. Bu yöntem, özellikle metin sınıflandırma (örneğin, spam e-posta filtreleme) gibi uygulamalarda yaygın olarak kullanılır.
 
 Yalın Bayes ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
@@ -239,4 +239,4 @@ Yalın Bayes ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
 Doğal Dil İşleme (Natural Language Processing - NLP), bilgisayarların insan dilini anlaması, yorumlaması ve üretmesi için geliştirilen yöntem ve teknikleri kapsayan bir alandır. NLP, dilbilim, bilgisayar bilimi ve yapay zeka alanlarının kesişiminde yer alır ve insanların yazılı veya sözlü dilini analiz ederek çeşitli uygulamalarda kullanmayı amaçlar.
 
 Doğal Dil İşleme ile ilgili detaylı bilgi ve daha fazla örnek için aşağıdaki linke tıklayınız.
-📂 []()
+📂 [Sentiment Analysis and Topic Extraction in Turkish Texts](https://github.com/elifbeyzatok00/Sentiment-Analysis-and-Topic-Extraction-in-Turkish-Texts)
