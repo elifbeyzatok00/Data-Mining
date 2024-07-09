@@ -17,7 +17,7 @@ Veri madenciliği, büyük miktarda veri içerisindeki desenleri, bilgiyi ve anl
 
 🔗[Yapay Zekaya Giris Konu Anlatımı](https://github.com/elifbeyzatok00/Data-Mining/blob/main/Yapay_Zekaya_Giris.ipynb)
 
-Veri madenciliğinin ana hedefleri (Main goals of data mining):
+**Veri madenciliğinin ana hedefleri (Main goals of data mining):**
 
 1. **Desen Keşfi:** Büyük veri kümelerindeki tekrarlanan desenleri ve ilişkileri tespit etmek.
 
@@ -29,7 +29,7 @@ Veri madenciliğinin ana hedefleri (Main goals of data mining):
 
 5. **Karar Destek:** Karar verme süreçlerini optimize etmek ve bilgiye dayalı kararlar almak için veri analizi ve modelleme kullanmak.
 
-Veri madenciliği adımları (Data Mining Steps):
+**Veri madenciliği adımları (Data Mining Steps):**
 
 1. **Veri Toplama:** İlgili veri kaynaklarından veri toplanması.
 
@@ -42,6 +42,34 @@ Veri madenciliği adımları (Data Mining Steps):
 5. **Dağıtım:** Sonuçların yorumlanması ve gerektiğinde uygulamaya geçirilmesi.
 
 Veri madenciliği, birçok endüstride kullanılan bir araçtır. Pazarlama, finans, sağlık, perakende, telekomünikasyon ve diğer birçok sektörde müşteri davranışlarını anlama, risk analizi yapma, hedefleme ve segmentasyon gibi birçok farklı alanda kullanılır.
+
+
+> **Veri madenciliği süreci (Data mining process):**
+> 1. **Veri Temizleme (Data Cleaning):**
+>
+> Ham veriler genellikle hatalı, eksik veya tutarsız olabilir. Bu adımda, veri setindeki hatalar ve tutarsızlıklar düzeltilir veya kaldırılır.
+>
+> 2. **Veri Bütünleştirme (Data Integration):**
+>
+> Farklı kaynaklardan gelen veriler birleştirilir ve tek bir veri seti oluşturulur. Bu adımda, veri setleri arasındaki çakışmalar ve tutarsızlıklar çözülür.
+>
+> 3. **Veri İndirme (Data Reduction):**
+>
+> Büyük veri setleri analiz sürecini zorlaştırabilir. Bu adımda, veri seti anlamlı bir şekilde küçültülürken önemli bilgiler korunur.
+>
+> 4. **Veri Dönüştürme (Data Transformation):**
+>
+> Veriler, veri madenciliği algoritmaları tarafından işlenebilecek bir formata dönüştürülür. Bu adımda, veri türleri ve ölçekleri normalize edilir.
+>
+> 5. **Veri Madenciliği Algoritmasını Uygulama (Data Mining Algorithm Application):**
+>
+> Veri setinden bilgi çıkarmak için uygun bir veri madenciliği algoritması seçilir ve uygulanır. Algoritma, veri setindeki örüntüleri ve ilişkileri keşfeder.
+>
+> 6. **Sonuçları Sunum ve Değerlendirme (Results Presentation and Evaluation):**
+>
+> Elde edilen sonuçlar, görselleştirmeler, raporlar ve sunumlar aracılığıyla paydaşlara sunulur. Sonuçların doğruluğu, geçerliliği ve faydası değerlendirilir.
+>
+> ![image](https://github.com/elifbeyzatok00/Data-Mining/assets/102792446/28f4ccdf-a935-48cf-a700-42b417192b7d)
 
 
 ## `Makine Öğrenimi Algoritmaları (Machine Learning Algorithms)`
