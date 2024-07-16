@@ -242,29 +242,46 @@ Bu kod örneğinde, öncelikle MNIST veri kümesi yüklenir ve CNN modeli tanım
 Kümeleme, verileri doğal gruplara veya kümelere ayırma işlemidir. Benzer özelliklere sahip veri noktaları aynı kümede yer alırken, farklı özelliklere sahip olanlar farklı kümelere atanır. Kümeleme, verilerin yapısını keşfetmek ve veri setindeki doğal desenleri tanımlamak için kullanılır. Örnek bir yöntem K-ortalamalar (K-means) algoritmasıdır.
 
 Kümeleme ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
-📂 [Kümeleme](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/2-k%C3%BCmeleme.pdf)
+
+🔗 [Kümeleme](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/2-k%C3%BCmeleme.pdf)
 
 ## Karar Ağaçları Nedir? (What are Decision Trees?)
 Karar ağaçları, sınıflandırma ve regresyon analizi için kullanılan bir modeldir. Ağaç yapısında karar düğümleri ve yaprak düğümleri bulunur. Her karar düğümü, bir özellik üzerinde bir koşul test eder ve sonuçlara göre dallanır. Yaprak düğümleri ise sınıf etiketlerini veya regresyon değerlerini temsil eder. Karar ağaçları, verilerin anlaşılması ve görselleştirilmesi açısından oldukça sezgiseldir.
 
 Karar Ağaçları ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
-📂 [Karar Ağaçları](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/3-Karar%20A%C4%9Fa%C3%A7lar%C4%B1.pdf)
+
+🔗 [Karar Ağaçları](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/3-Karar%20A%C4%9Fa%C3%A7lar%C4%B1.pdf)
 
 ## Birliktelik Kuralları Nedir? (What are Association Rules?)
 Birliktelik kuralları, veri setindeki öğeler arasındaki ilginç ilişkileri veya kalıpları keşfetmek için kullanılır. Özellikle pazar sepeti analizi gibi uygulamalarda yaygındır. Bu yöntem, belirli ürünlerin birlikte satın alınma olasılığını belirlemek için kullanılır. Örneğin, "Eğer müşteri A ürününü alırsa, B ürününü de alma olasılığı nedir?" gibi sorulara cevap verir. Apriori algoritması sıkça kullanılan bir tekniktir.
 
 Birliktelik Kuralları ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
-📂 [Birliktelik Kuralları](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/4-%20Birliktelik%20Kurallar%C4%B1.pdf)
+
+🔗 [Birliktelik Kuralları](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/4-%20Birliktelik%20Kurallar%C4%B1.pdf)
 
 ## Yalın Bayes Sınıflandırıcı Nedir? (What is the Naive Bayes Classifier?)
 Yalın Bayes, Bayes teoremini temel alan ve özelliklerin birbirinden bağımsız olduğunu varsayan bir sınıflandırma yöntemidir. Basit ve hızlı olması, aynı zamanda büyük veri setlerinde etkili sonuçlar verebilmesi nedeniyle popülerdir. Bu yöntem, özellikle metin sınıflandırma (örneğin, spam e-posta filtreleme) gibi uygulamalarda yaygın olarak kullanılır.
 
 Yalın Bayes ile ilgili detaylı bilgi için aşağıdaki linke tıklayınız.
-📂 [Yalın Bayes](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/5-Yal%C4%B1n%20Bayes%20S%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1.pdf)
+
+🔗 [Yalın Bayes](https://github.com/elifbeyzatok00/Data-Mining/blob/main/slaytlar/5-Yal%C4%B1n%20Bayes%20S%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1.pdf)
 
 
 ## Doğal Dil İşleme (Natural Language Processing - NLP)
 Doğal Dil İşleme (Natural Language Processing - NLP), bilgisayarların insan dilini anlaması, yorumlaması ve üretmesi için geliştirilen yöntem ve teknikleri kapsayan bir alandır. NLP, dilbilim, bilgisayar bilimi ve yapay zeka alanlarının kesişiminde yer alır ve insanların yazılı veya sözlü dilini analiz ederek çeşitli uygulamalarda kullanmayı amaçlar.
 
-Doğal Dil İşleme ile ilgili detaylı bilgi ve daha fazla örnek için aşağıdaki linke tıklayınız.
-📂 [Sentiment Analysis and Topic Extraction in Turkish Texts](https://github.com/elifbeyzatok00/Sentiment-Analysis-and-Topic-Extraction-in-Turkish-Texts)
+Doğal Dil İşleme ile ilgili detaylı bilgi ve daha fazla örnek için aşağıdaki linklere tıklayınız.
+
+🔗 [Sentiment Analysis and Topic Extraction in Turkish Texts](https://github.com/elifbeyzatok00/Sentiment-Analysis-and-Topic-Extraction-in-Turkish-Texts)
+
+🔗 [BERT News Classification Project](https://github.com/elifbeyzatok00/BERT-News-Classification-Project)
+
+🔗 [Sentiment Analysis with LSTM](https://github.com/elifbeyzatok00/Sentiment-Analysis-with-LSTM)
+
+🔗 [Number Description CNN (Rakam Tanima CNN)](https://github.com/elifbeyzatok00/Number-Description-CNN)
+
+🔗 [CIFAR-10 Image Classification using PyTorch](https://github.com/elifbeyzatok00/CIFAR-10-Image-Classification-using-PyTorch)
+
+🔗 [IMDB Sentiment Analysis with TensorFlow](https://github.com/elifbeyzatok00/IMDB-Sentiment-TF)
+
+🔗 [Fashion MNIST Generative Adversarial Network (GAN) with Keras](https://github.com/elifbeyzatok00/FashionGAN)
